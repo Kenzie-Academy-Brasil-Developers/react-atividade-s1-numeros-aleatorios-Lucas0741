@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header button {
+  width: 10rem;
+  height: 5rem;
+  border: solid 5px rgb(191, 45, 89);
+  background-color: rgb(191, 45, 89);
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Random-number {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .App-header button {
+    width: 25rem;
+    height: 10rem;
+    border: solid 5px rgb(191, 45, 89);
+    background-color: rgb(191, 45, 89);
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .Random-number {
+    font-size: 100px;
+    font-weight: 600;
+  }
+}
